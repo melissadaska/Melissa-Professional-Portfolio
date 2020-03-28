@@ -8,7 +8,7 @@ header {
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 header a {
@@ -21,7 +21,7 @@ header a {
 }
 
 header nav a {
-    font-size: 25px;
+    font-size: 20px;
     align-items: right;
 }
 
@@ -38,32 +38,47 @@ header nav ul li a {
     margin: 0 30px;
 }
 
-.intro {
+.banner {
     background-image: url("../images/triangle_banner.jpg");
     background-size: cover;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
-.intro img {
+.banner img {
+    margin: 30px 0 30px 100px;
+}
+
+.intro, .projects, .contact-info {
+    display: flex;
     justify-content: center;
-    margin: 20px;
+    background-color: gray;
 }
 
 .intro h2, .projects h2, .contact-info h2 {
-    margin: 40px;
+    margin: 90px 0 30px 100px;
     font-family: Verdana;
-    color: mediumblue;
+    color: whitesmoke;
     font-size: 24px;
 }
 
-.intro p, .projects p, .contact-info p {
+.intro-me, .projects p, .contact-info p {
+    padding: 30px;
+    color: white;
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 3px;
+    border-color: yellow;
+    width: 50%;
     margin: 40px;
+    border-radius: 15px;
+    text-align: left;
     font-family: Verdana;
     font-size: 20px;
-    text-align: left;
-    width: 50%;
-    color: mediumblue;
 }
 
+.projects img {
+    max-width: 50%;
+    border: solid 3px yellow;
+    display: flex;
+}
