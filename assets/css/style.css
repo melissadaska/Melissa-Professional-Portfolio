@@ -69,7 +69,7 @@ header nav ul li a {
 }
 
 .intro h2, .projects h2, .contact-info h2 {
-    margin: 70px 30px 30px 40px;
+    margin: 70px 30px 60px 40px;
     padding: 0 15px 0 15px;
     font-family: Verdana;
     color: whitesmoke;
@@ -88,21 +88,59 @@ header nav ul li a {
     font-size: 20px;
 }
 
-.projects p {
-    padding: 30px;
-    color: white;
-    width: 50%;
-    margin: 40px;
-    border-radius: 15px;
-    text-align: left;
-    font-family: Verdana;
-    font-size: 20px;
+.project-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    /* margin: 100px; */
+    padding: 150px;
+    min-height: 300px;
+    position: relative;
 }
 
-.projects img {
-    max-width: 50%;
-    border: solid 3px hotpink;
+.project-1 {
+    background-image: url("../images/run_buddy_page.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    /* border: 1px solid hotpink; */
+    border-radius: 8px;
     display: flex;
+    margin: 50px 0 500px 0;
+    padding: 10px 120px 20px 10px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.project-2 {
+    background-image: url("../images/horiseon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 600px 90px;
+    padding: 10px;
+    position: relative;
+    top: 60px;
+    left: 0px;
+}
+
+.project-3 {
+    background-image: url("../images/breaking_benjamin_album.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0 100px 90px;
+    padding: 10px;
+    position: absolute;
+    top: 1100px;
+    left: 190px;
 }
 
 .contact-info div {
