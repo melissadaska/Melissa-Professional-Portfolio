@@ -132,7 +132,7 @@ header nav ul li a {
 }
 
 .project-3 {
-    background-image: url("../images/breaking_benjamin_album.jpg");
+    background-image: url("../images/hearth.png");
     background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid hotpink;
@@ -241,5 +241,13 @@ header nav ul li a {
         top: 1325px;
         left: 200px;
     }
+
+    .project-4 {
+        margin: 0px;
+        padding: 10px 110px 10px 10px;
+        top: 1325px;
+        left: 200px;
+    }
+
 
 }
